@@ -13,27 +13,27 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+         About me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+          href="#coding"
+          onClick={() => handlePageChange('Coding')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Coding' ? 'nav-link active' : 'nav-link'}
         >
-          About me
+          Coding
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          href="#multimedia"
+          onClick={() => handlePageChange('Multimedia')}
+          // Check to see if the currentPage is `Multimedia`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Multimedia' ? 'nav-link active' : 'nav-link'}
         >
-          My work
+          Multimedia
         </a>
       </li>
       <li className="nav-item">

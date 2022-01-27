@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Coding() {
   return (
     <>
 <div class="row row-cols-2 row-cols-md-3 g-12">

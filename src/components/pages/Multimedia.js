@@ -1,18 +1,19 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Multimedia() {
   return (
     <>
 <div class="row row-cols-2 row-cols-md-3 g-12">
   <div class="col">
     <div class="card">
+     
     <img
-                src="https://tallerdeldiablo.github.io/My-Portfolio/assets/img/project-gym.jpg"
+                src=".https://tallerdeldiablo.github.io/My-Portfolio/assets/img/alas.png"
                 class="card-img-top"
                 alt="Mywork"
               />
       <div class="card-body">
-        <h5 class="card-title">Gymder</h5>
+        <h5 class="card-title">CAD/ Rendering</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
@@ -20,12 +21,12 @@ export default function Blog() {
   <div class="col">
     <div class="card">
     <img
-                src="https://tallerdeldiablo.github.io/My-Portfolio/assets/img/weather.jpg"
+                src="https://tallerdeldiablo.github.io/My-Portfolio/assets/img/2d.png"
                 class="card-img-top"
                 alt="Mywork"
               />
       <div class="card-body">
-        <h5 class="card-title">Weather Finder</h5>
+        <h5 class="card-title">2d animation</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
@@ -33,12 +34,12 @@ export default function Blog() {
   <div class="col">
     <div class="card">
      <img
-                src="https://tallerdeldiablo.github.io/My-Portfolio/assets/img/todolo.png"
+                src="https://tallerdeldiablo.github.io/My-Portfolio/assets/img/photo.png"
                 class="card-img-top"
                 alt="Mywork"
               />
       <div class="card-body">
-        <h5 class="card-title">Gymder</h5>
+        <h5 class="card-title">3d modeling</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
       </div>
     </div>
