@@ -32,7 +32,7 @@ Responsive
 
 
 ## links
-https://www.linkedin.com/in/ricoding/
+
 
 
 
